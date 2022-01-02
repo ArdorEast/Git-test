@@ -102,15 +102,15 @@ ul {
 }
 @media (max-width:430px) {
 .header-title {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     }
     .header-photo {
-    left: 1.4rem;
+    left: 1.1rem;
     top: 9rem;
     }
     .main-content h2 {
-    margin-bottom: 1.3rem;
-    font-size: 1rem;       
+    margin-bottom: 1.1rem;
+    font-size: 0.9rem;       
     }
 }
 .main-content {

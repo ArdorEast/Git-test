@@ -73,7 +73,7 @@ ul {
     }
     .header-title {
     font-size: 2rem;
-}
+    }
     .header-photo {
     left: 2rem;
     top: 12rem;
@@ -99,6 +99,15 @@ ul {
     margin-bottom: 2rem;
     align-self: flex-start;
     
+    }
+}
+@media (max-width:430px) {
+.header-title {
+    font-size: 1.7rem;
+    }
+    .header-photo {
+    left: 1.8rem;
+    top: 11rem;
     }
 }
 .main-content {

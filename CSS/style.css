@@ -97,17 +97,20 @@ ul {
     flex: 0 1 5rem;
     padding-top: 12rem;
     margin-bottom: 2rem;
-    align-self: flex-start;
-    
+    align-self: flex-start;    
     }
 }
 @media (max-width:430px) {
 .header-title {
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     }
     .header-photo {
-    left: 1.8rem;
-    top: 11rem;
+    left: 1.4rem;
+    top: 9rem;
+    }
+    .main-content h2 {
+    margin-bottom: 1.3rem;
+    font-size: 1rem;       
     }
 }
 .main-content {

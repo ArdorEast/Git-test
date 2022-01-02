@@ -54,6 +54,9 @@ ul {
     border-radius: 6%;
 }
 @media (max-width:1020px) {
+    .header-title {
+    font-size: 2.3rem;
+    }
     .header-photo {
         top: 7rem;
     }
@@ -63,9 +66,7 @@ ul {
     .contacts {
     margin-top: 4rem; 
     }
-    .header-title {
-    font-size: 2.3rem;
-    }
+    
 }
 @media (max-width:720px) {
     .container {
@@ -73,9 +74,11 @@ ul {
     }
     .header-title {
     font-size: 2rem;
+    margin-left: 0.9rem;
+    margin-right: 15rem;
     }
     .header-photo {
-    left: 2rem;
+    left: 1.5rem;
     top: 12rem;
     min-height: 18.125rem;
     max-width: 12.75rem;
@@ -95,22 +98,25 @@ ul {
     }
     .contacts {
     flex: 0 1 5rem;
-    padding-top: 12rem;
+    padding-top: 13.5rem;
     margin-bottom: 2rem;
     align-self: flex-start;    
     }
 }
 @media (max-width:430px) {
-.header-title {
+    .header-title {
     font-size: 1.3rem;
+    margin-left: 0.4rem;
+    margin-right: 15rem;
     }
     .header-photo {
-    left: 1.1rem;
+    left: 0.2rem;
     top: 9rem;
+    border: 0.6rem solid #e9c2a3;
     }
     .main-content h2 {
     margin-bottom: 1.1rem;
-    font-size: 0.9rem;       
+    font-size: 0.8rem;       
     }
 }
 .main-content {
@@ -163,7 +169,7 @@ margin-bottom: 2.6rem;
     padding: 0 0.5rem;
 }
 .contacts {
-margin-top: 8rem;
+margin-top: 7rem;
 }
 .contacts h2 {
     margin-left: 1rem;
@@ -171,8 +177,7 @@ margin-top: 8rem;
 .contacts ul {   
     list-style: none;
 }
-.contacts li {   
-    color: #2b2523;
+.contacts li {        
     font-size: 1rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
@@ -214,6 +219,10 @@ height: 28px;
 left: -1.7rem;
 top: 0rem;
 background: url('../Img/mail-send-regular-24.png') 0 0 no-repeat;
+}
+.contacts a {
+    text-decoration: none;
+    color: #2b2523;
 }
 .footer {
     display: flex;
